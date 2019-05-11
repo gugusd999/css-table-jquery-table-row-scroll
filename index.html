@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        table{
+            border-collapse: collapse;
+            white-space: nowrap;
+        }
+
+        th,
+        td{
+            padding: 10px;
+            border: 1px solid #333;
+        }
+
+        .table-scroll
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 400px;
+            overflow-x: auto;
+        }
+
+        .table-stop 
+        {
+            background-color: red;
+            position: absolute;
+        }
+
+        .table-stop td, .table-stop th
+        {
+            display: none;
+        }
+
+        .table-stop .clone{
+            display: table-cell;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="table">
+        <div class="table-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="clone">data 1</th>
+                        <th class="clone">data 2</th>
+                        <th class="clone">data 3</th>
+                        <th>data 1</th>
+                        <th>data 2</th>
+                        <th>data 3</th>
+                        <th>data 4</th>
+                        <th>data 5</th>
+                        <th>data 6</th>
+                        <th>data 7</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                   <tr>
+                       <td class="clone">data 1</td>
+                       <td class="clone">data 2</td>
+                       <td class="clone">data 3</td>
+                       <td>data 1</td>
+                       <td>data 2</td>
+                       <td>data 3</td>
+                       <td>data 4</td>
+                       <td>data 5</td>
+                       <td>data 6</td>
+                       <td>data 7</td>
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        $( "table" ).clone().appendTo( ".table" ).attr("class", "table-stop");
+    </script>
+</body>
+</html>
